@@ -1,0 +1,54 @@
+h1 {
+    font-family: 'Courier New', monospace; /*'Fredericka the Great', cursive; */
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /*To avoid both box and text content to come in line*/
+    text-align: center;
+    color: whitesmoke;
+    background-color: #414A4C;
+}
+
+canvas{
+    box-shadow: whitesmoke 10px ; /*box-shadow property is used to elevate the canvas design*/
+    border-style: solid;
+    border-color: black;
+}
+
+.button-group {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-group button {
+    margin: 5px;
+    background-color: whitesmoke;
+}
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as desired */
+    display: none;
+}
+  
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    canvas {
+        width: 90vw;
+        height: 90vw;
+    }
+}

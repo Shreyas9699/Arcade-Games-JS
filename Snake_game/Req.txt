@@ -1,0 +1,13 @@
+Reqirements:
+	HTML/CSS: 
+        x   We need a box
+        x   game start/reset button, 
+        score board 
+	JS: x	To start the sanke move when game starts, 
+		x	randomly place foods
+		x	to move snake with arrow key
+		x	eat food to increase size
+		make snake movement faster
+		x	stop game wen snake eats itself
+		x	stop game when snake hits walls
+        get a popup/alert when game over, along with restart/cancel option

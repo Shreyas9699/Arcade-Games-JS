@@ -1,0 +1,53 @@
+body {
+    background-color: #000000;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 50px;
+	font-weight: normal;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.game-link {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.game-link:hover {
+    background-color: #ff3333;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+        margin-top: 30px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .game-link {
+        margin: 10px;
+        padding: 15px;
+        font-size: 18px;
+    }
+}

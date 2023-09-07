@@ -1,0 +1,48 @@
+:root,
+:root.light {
+  --color-bg: #ffffff;
+  --color-fg: #000000;
+  --card-bg-color: #fafafa;
+}
+
+:root.dark {
+  --color-bg: #263238;
+  --color-fg: #ffffff;
+  --card-bg-color: #607d8b;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+
+section {
+  text-align: center;
+}
+
+.card {
+  background-color: var(--card-bg-color) !important;
+}
+
+.game-box {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 300px;
+}
+
+.cell {
+  font-family: "Permanent Marker", cursive;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px;
+  border: 1px solid;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+}
+
+.mode{
+  
+}
