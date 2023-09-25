@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maze</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <script src="maze.js" defer></script>
+  </head>
+  <body>
+    <h1>Welcome to the Maze game!</h1>
+    <p><input id = "reload" type="button" value="Generate New Maze" onClick="refresh(this)"></p>
+      <!-- <p>
+        Cell Sise: <select id='drop-down' onchange="generateMaze(parseInt(this.value))">
+          <option value = 100>100 (You sure?)</option>
+          <option value = 50>50</option>
+          <option value = 25 selected>25 (default)</option>
+          <option value = 20>20</option>
+          <option value = 10>10</option>
+          <option value = 5>5 (Nerd ?????)</option>
+        </select>
+      </p> -->
+			<!-- <button type="button" onclick="reset()" id="resetButton">Reset</button> -->
+      <canvas id="gameBox" width="500" height="500"> </canvas> <br>
+			<a href="../index.html" >
+				<button type="button">Back to Home</button>
+			</a>
+  </body>
+</html>
